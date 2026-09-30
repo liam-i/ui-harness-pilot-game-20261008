@@ -3,7 +3,7 @@
 - [x] 1.1 在获批规划和Apply授权下重读UI权威与决定历史，核对Design中的A/D、独立expected及完整闭包；保存命令、实际ref、摘要和结论，未知或撤回时停止消费。
 - [x] 1.2 在独立导出副本移除一张必需PNG，确认缺件阻止继续，再从同一D恢复；以失败记录、恢复后摘要一致及原批准包未改为完成证据。
 
-证据：[实际权威与固定闭包](../../../harness/evidence/ui-before-apply-game.json)、[PNG缺件与同D恢复](../../../harness/evidence/ui-missing-image-recovery.json)。43项闭包/批准引用及policy重新逐字节核对，决定历史仍为4份批准新增，无撤回。
+证据：[实际权威与固定闭包](../../../../harness/evidence/ui-before-apply-game.json)、[PNG缺件与同D恢复](../../../../harness/evidence/ui-missing-image-recovery.json)。43项闭包/批准引用及policy重新逐字节核对，决定历史仍为4份批准新增，无撤回。
 
 ## 2. 确定性测试
 
@@ -36,10 +36,10 @@
 - [x] 4.1 在SE3、17 Pro逐条运行固定B01–B09，记录菜单开关、确认/取消、重开及同进程前后台的actual；对当前实现重跑原40项单元回归，保存用例映射、日志/xcresult、退出码与设备清理结果，不能用旧通过代替新结果。
 - [x] 4.2 核对两尺寸默认菜单、确认框、取消返回、确认后及新局画面，无切边、文字重叠、缺图或触点错位；保存截图及预算核对（PNG合计≤64KiB、RGBA≤1MiB、tokens≤16KiB），确认应用运行脱离design目录。
 
-4.1/4.2：[两尺寸actual及工程视觉自查](../../../harness/evidence/final-runtime-review.json)。SE 95.481秒、17 Pro 91.534秒均退出0，各54项单元＋2项UI通过、0跳过；B01–B08实际点击/手势/前后台逐项通过，B09逐ID核对原40项回归。18张原生截图和两个完整xcresult受控保存；Codex回看两尺寸默认菜单、系统确认、取消、确认后及新局，尺寸/点击断言和预算通过。最终均Shutdown，运行只读Bundle。真人运行验收仍待5.1，不以自查代签。
+4.1/4.2：[两尺寸actual及工程视觉自查](../../../../harness/evidence/final-runtime-review.json)。SE 95.481秒、17 Pro 91.534秒均退出0，各54项单元＋2项UI通过、0跳过；B01–B08实际点击/手势/前后台逐项通过，B09逐ID核对原40项回归。18张原生截图和两个完整xcresult受控保存；Codex回看两尺寸默认菜单、系统确认、取消、确认后及新局，尺寸/点击断言和预算通过。最终均Shutdown，运行只读Bundle。真人运行验收仍待5.1，不以自查代签。
 
 ## 5. 交付证据
 
 - [x] 5.1 对照Proposal/Spec/Design、固定包和原始结果完成工程自审，整理可恢复的实现差异、唯一Tasks证据、失败与未验范围；将实际界面及行为验收提交当前用户，取得真实结论后保存原文。后续Archive/Sync仍按实际授权及原流程执行，本任务不授权正式合并或发布。
 
-5.1：[真实运行验收及本地收尾授权](../../../harness/evidence/runtime-acceptance.json)。当前用户已对固定运行E `271b94809334b28d28a3b82fe2780b0648ed83187f49ed636d3a913ffdce5bc5`答复“运行验收通过，允许本地提交和归档”；产品字节与两尺寸受测版本一致。归档前已[重读UI实际权威及决定历史](../../../harness/evidence/ui-before-archive.json)，A/D及全部固定引用未变，无撤回。原始自审／运行记录保留当时的待审状态；本条记录后续真人结论。接续本地提交与Archive，主线合并、外部推送和发布未授权。
+5.1：[真实运行验收及本地收尾授权](../../../../harness/evidence/runtime-acceptance.json)。当前用户已对固定运行E `271b94809334b28d28a3b82fe2780b0648ed83187f49ed636d3a913ffdce5bc5`答复“运行验收通过，允许本地提交和归档”；产品字节与两尺寸受测版本一致。归档前已[重读UI实际权威及决定历史](../../../../harness/evidence/ui-before-archive.json)，A/D及全部固定引用未变，无撤回。原始自审／运行记录保留当时的待审状态；本条记录后续真人结论。接续本地提交与Archive，主线合并、外部推送和发布未授权。
