@@ -1,4 +1,5 @@
 import XCTest
+import Combine
 @testable import twofortyeight
 
 class GameViewModelTests: XCTestCase {
@@ -146,6 +147,25 @@ class GameViewModelTests: XCTestCase {
         sut.push(.down)
         
         XCTAssertEqual(sut.numberOfMoves, 3)
+    }
+
+    func test_reset_best_score_notifies_menu_consumers_without_changing_the_game() {
+        let board = [[2,4,0,0], [0,8,0,0], [0,0,0,0], [0,0,0,0]]
+        let storage = MockStorage()
+        storage.save(score: 16)
+        storage.save(bestScore: 64)
+        let model = GameViewModel(GameEngine(), storage: storage,
+                                  stateTracker: GameStateTracker(initialState: (board, 16)))
+        var notifications = 0
+        let subscription = model.objectWillChange.sink { notifications += 1 }
+
+        model.eraseBestScore()
+
+        XCTAssertGreaterThan(notifications, 0, "Menu consumers must observe the reset immediately")
+        XCTAssertEqual(model.bestScore, 0)
+        XCTAssertEqual(model.state.score, 16)
+        XCTAssertEqual(model.state.board, board)
+        withExtendedLifetime(subscription) {}
     }
     
     private func newViewModelStub() -> GameViewModelStub {

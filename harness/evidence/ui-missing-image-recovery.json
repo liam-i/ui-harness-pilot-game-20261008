@@ -1,0 +1,17 @@
+{
+  "at": "2026-09-30T09:48:24.012973+00:00",
+  "scope": "one-off removed required PNG in independent export; no UI checker implemented",
+  "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+  "unit": "UI-2048-MENU",
+  "removed_path": "assets/menu-primary.png",
+  "actual_failure": "[Errno 2] No such file or directory: '/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/game-missing-image-recovery/menu-primary.png'",
+  "decision": "stop import while required PNG absent",
+  "restore_command": [
+    "git",
+    "show",
+    "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60:design/units/UI-2048-MENU/releases/U001/assets/menu-primary.png"
+  ],
+  "restore_cwd": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/approved-recovery",
+  "restored_sha256": "0c43a01a95270167be8c05a68c45a2709e60177d9dfa59bedb56fd0802659e52",
+  "authority_worktree_unchanged": true
+}

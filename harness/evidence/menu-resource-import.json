@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+      "source": "design/units/UI-2048-MENU/releases/U001/tokens.json",
+      "runtime": "twofortyeight/twofortyeight/menu-tokens.json",
+      "sha256": "3184b8ee1b57ce2bcba7cdf9940fbae83cecba7b5792bfd24bedea8564c902fc",
+      "bytes": 538
+    },
+    {
+      "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+      "source": "design/units/UI-2048-MENU/releases/U001/tokens.json",
+      "runtime": "twofortyeight/twofortyeightTests/approved-menu-tokens.json",
+      "sha256": "3184b8ee1b57ce2bcba7cdf9940fbae83cecba7b5792bfd24bedea8564c902fc",
+      "bytes": 538
+    },
+    {
+      "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+      "source": "design/units/UI-2048-MENU/releases/U001/assets/menu-primary.png",
+      "runtime": "twofortyeight/twofortyeight/Assets.xcassets/MenuPrimary.imageset/menu-primary.png",
+      "sha256": "0c43a01a95270167be8c05a68c45a2709e60177d9dfa59bedb56fd0802659e52",
+      "bytes": 784
+    },
+    {
+      "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+      "source": "design/units/UI-2048-MENU/releases/U001/assets/menu-secondary.png",
+      "runtime": "twofortyeight/twofortyeight/Assets.xcassets/MenuSecondary.imageset/menu-secondary.png",
+      "sha256": "f0f3d52f110768bf93a10b44f4ec3c727924c25734ce85e1275464c9b02cfe18",
+      "bytes": 786
+    }
+  ],
+  "runtime_png_bytes": 1570,
+  "rgba_bytes": 393216,
+  "tokens_bytes": 538,
+  "runtime_load_tests": "pending"
+}

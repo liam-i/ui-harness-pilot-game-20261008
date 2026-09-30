@@ -1,0 +1,27 @@
+{
+  "units": "pt",
+  "background": "#F8F5EB",
+  "text": "#243A34",
+  "muted": "#657168",
+  "sideInset": 24,
+  "buttonMaxWidth": 312,
+  "buttonHeight": 64,
+  "buttonGap": 16,
+  "buttonTextSize": 19,
+  "titleSize": 52,
+  "brandSize": 15,
+  "hintSize": 13,
+  "buttonCapInsets": {
+    "top": 16,
+    "leading": 16,
+    "bottom": 16,
+    "trailing": 16
+  },
+  "assetScale": 2,
+  "font": "system.rounded",
+  "title": "MENU",
+  "brand": "2048",
+  "hint": "Swipe down to return",
+  "newGame": "NEW GAME",
+  "resetBestScore": "RESET BEST SCORE"
+}

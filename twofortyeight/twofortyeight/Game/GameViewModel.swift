@@ -10,7 +10,7 @@ class GameViewModel: ObservableObject {
     private(set) var addedTile: (Int, Int)? = nil {
         didSet { UIImpactFeedbackGenerator().impactOccurred() }
     }
-    private(set) var bestScore: Int = .zero {
+    @Published private(set) var bestScore: Int = .zero {
         didSet { storage.save(bestScore: bestScore) }
     }
     

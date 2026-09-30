@@ -1,0 +1,44 @@
+[
+  {
+    "path": "twofortyeight/twofortyeight/Game/GameViewModel.swift",
+    "before": "f7399bf1d02a8533461852def0ee63eac4db1acf98b2ab9e86d04a8caedeffb7",
+    "after": "73698e953081919b3a7ff3daf3b937714ef1b740e14fac3c38c4dfb0a072c89d",
+    "comparison": "one @Published UI notification annotation"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/UIElements/Content/GameView.swift",
+    "before": "930bf6b11ca6a095e5bed192af401ccd5e65bc089ac45a255cebed0cbd5b471c",
+    "after": "930bf6b11ca6a095e5bed192af401ccd5e65bc089ac45a255cebed0cbd5b471c",
+    "comparison": "byte-identical"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/Storage/LocalStorage.swift",
+    "before": "4ba4123b262629d7e9ccc3515996d8381303b24e475df3c0b1ae007f4b740fae",
+    "after": "4ba4123b262629d7e9ccc3515996d8381303b24e475df3c0b1ae007f4b740fae",
+    "comparison": "byte-identical"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/State/GameStateTracker.swift",
+    "before": "a77e5d560efe5926408d0b3eaedbb053a006461d28b8a8c7c5012c3b06538cd2",
+    "after": "a77e5d560efe5926408d0b3eaedbb053a006461d28b8a8c7c5012c3b06538cd2",
+    "comparison": "byte-identical"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/Engine/GameEngine.swift",
+    "before": "2bdfff40aee67fc7714e96778f068d5d8d8b678cf077eb418032f7149f6776aa",
+    "after": "2bdfff40aee67fc7714e96778f068d5d8d8b678cf077eb418032f7149f6776aa",
+    "comparison": "byte-identical"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/UIElements/Widgets/ActionButton.swift",
+    "before": "a04ecc51e2eaf2b64585879c5a807db239d59c01a5504342fa022aa7538ca1db",
+    "after": "a04ecc51e2eaf2b64585879c5a807db239d59c01a5504342fa022aa7538ca1db",
+    "comparison": "byte-identical"
+  },
+  {
+    "path": "twofortyeight/twofortyeight/Game/UIElements/Sheets/GameOverView.swift",
+    "before": "51a8428af75f9d46395ae05115ac5bc0141a70366f56d40eaa8650dd236f3d81",
+    "after": "51a8428af75f9d46395ae05115ac5bc0141a70366f56d40eaa8650dd236f3d81",
+    "comparison": "byte-identical"
+  }
+]

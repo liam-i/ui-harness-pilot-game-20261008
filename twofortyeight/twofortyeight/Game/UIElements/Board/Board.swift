@@ -14,6 +14,8 @@ struct Board: View {
                 HStack {
                     ForEach(0..<self.board[row].count, id: \.self) { column in
                         return Tile(self.board[row, column], wasAdded: self.wasAdded(row: row, column: column))
+                            .accessibilityLabel(String(self.board[row, column]))
+                            .accessibilityIdentifier("tile-\(row)-\(column)")
                     }
                 }
                 .padding(4)

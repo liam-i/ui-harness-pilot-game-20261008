@@ -1,0 +1,257 @@
+{
+  "at": "2026-09-30T10:11:23.240917+00:00",
+  "runs": [
+    {
+      "run": "game-final-SE",
+      "device": "4F72CD21-F071-4835-87B2-1456D125374B",
+      "seconds": 95.481,
+      "tests": {
+        "unit": 54,
+        "ui": 2
+      },
+      "case_results": [
+        {
+          "id": "B01",
+          "actual": "score=16 best=64 board=seed",
+          "screenshot": "6D3B180B-CFDB-4FB3-9200-45D2B806EE02.png"
+        },
+        {
+          "id": "B02",
+          "actual": "menu visible; state checked after dismiss",
+          "screenshot": "77DECBBB-E425-4E3B-8AC7-8AC0495574B8.png"
+        },
+        {
+          "id": "B03",
+          "actual": "down gesture returns unchanged board",
+          "screenshot": "372B371F-9B3B-425C-89D1-AD97950259E3.png"
+        },
+        {
+          "id": "B04",
+          "actual": "original native alert; no mutation checked by cancel",
+          "screenshot": "7933C14D-C721-46E4-9B37-320F54F6A048.png"
+        },
+        {
+          "id": "B05",
+          "actual": "Cancel kept menu and original data",
+          "screenshot": "4A821542-9950-4259-8403-C25DC236BA12.png"
+        },
+        {
+          "id": "B06",
+          "actual": "best=0 immediately score=16 board=seed",
+          "screenshot": "F36D1A09-01BD-4944-9751-E4D176663B50.png"
+        },
+        {
+          "id": "B07",
+          "actual": "score=0 best=64 one tile2/4 undo cleared",
+          "screenshot": "B64F32DE-2780-4C16-8370-9C1CF4EA3868.png"
+        },
+        {
+          "id": "B08",
+          "actual": "same-process menu restored; game unchanged",
+          "screenshot": "1CC44C35-76DB-4F89-A9D6-8C66C521F6DC.png"
+        },
+        {
+          "id": "B09",
+          "actual": "all 40 original unit cases passed in this run",
+          "test_ids": [
+            "GameEngineTests test_can_add_number",
+            "GameEngineTests test_can_combine_numbers_to_right",
+            "GameEngineTests test_can_compare_boards",
+            "GameEngineTests test_can_create_engine",
+            "GameEngineTests test_can_flip_board",
+            "GameEngineTests test_can_rotate_board",
+            "GameEngineTests test_can_slide_row_to_right",
+            "GameEngineTests test_is_game_over",
+            "GameEngineTests test_push_down",
+            "GameEngineTests test_push_left",
+            "GameEngineTests test_push_right",
+            "GameEngineTests test_push_up",
+            "GameStateTrackerTests test_adding_state_returns_newly_added_state",
+            "GameStateTrackerTests test_can_add_state",
+            "GameStateTrackerTests test_can_reset",
+            "GameStateTrackerTests test_can_undo",
+            "GameStateTrackerTests test_can_update_current",
+            "GameStateTrackerTests test_cannot_undo_if_states_count_is_1",
+            "GameStateTrackerTests test_has_1_state_after_init",
+            "GameStateTrackerTests test_isUndoable_is_false_if_state_count_is_1",
+            "GameStateTrackerTests test_isUndoable_is_true_if_state_count_is_more_than_1",
+            "GameStateTrackerTests test_last_returns_last_state",
+            "GameViewControllerTests test_view_controller_call_start_on_init",
+            "GameViewModelTests test_can_add_number_to_board",
+            "GameViewModelTests test_can_count_moves",
+            "GameViewModelTests test_can_erase_best_score",
+            "GameViewModelTests test_can_init_with_blank_board",
+            "GameViewModelTests test_can_push_numbers_down",
+            "GameViewModelTests test_can_push_numbers_to_left",
+            "GameViewModelTests test_can_push_numbers_to_right",
+            "GameViewModelTests test_can_push_numbers_to_up",
+            "GameViewModelTests test_can_reset_board",
+            "GameViewModelTests test_can_save_best_score",
+            "GameViewModelTests test_can_score",
+            "GameViewModelTests test_can_tell_if_the_game_is_over",
+            "GameViewModelTests test_can_undo",
+            "LocalStorageTests test_can_reset_data",
+            "LocalStorageTests test_can_save_best_score",
+            "LocalStorageTests test_can_save_board",
+            "LocalStorageTests test_can_save_score"
+          ]
+        }
+      ],
+      "layout_screenshot": "4D2EC639-D1AC-42B4-918B-AE7D9BAD2E2A.png",
+      "cleanup": "Shutdown"
+    },
+    {
+      "run": "game-final-Pro",
+      "device": "D14EBF55-3D41-419E-8F85-306D5D812CFD",
+      "seconds": 91.534,
+      "tests": {
+        "unit": 54,
+        "ui": 2
+      },
+      "case_results": [
+        {
+          "id": "B01",
+          "actual": "score=16 best=64 board=seed",
+          "screenshot": "B5201ED9-2349-41B0-8F60-C6BB158DCB01.png"
+        },
+        {
+          "id": "B02",
+          "actual": "menu visible; state checked after dismiss",
+          "screenshot": "8F23B729-8F46-4405-BFF6-78275BB33B2A.png"
+        },
+        {
+          "id": "B03",
+          "actual": "down gesture returns unchanged board",
+          "screenshot": "A84A0B29-A5D8-407B-9B31-0E7EE7A4288A.png"
+        },
+        {
+          "id": "B04",
+          "actual": "original native alert; no mutation checked by cancel",
+          "screenshot": "D04EF1D8-EF20-4FFB-B93E-F092B9AE320F.png"
+        },
+        {
+          "id": "B05",
+          "actual": "Cancel kept menu and original data",
+          "screenshot": "A6B6D7DD-FE07-4417-BE38-6F9307CDCA43.png"
+        },
+        {
+          "id": "B06",
+          "actual": "best=0 immediately score=16 board=seed",
+          "screenshot": "AA5D4CDD-E4BC-4BA3-9261-F0934BCDF4B7.png"
+        },
+        {
+          "id": "B07",
+          "actual": "score=0 best=64 one tile2/4 undo cleared",
+          "screenshot": "6E605C26-8D9C-4594-ADC1-BCAC460C4F0E.png"
+        },
+        {
+          "id": "B08",
+          "actual": "same-process menu restored; game unchanged",
+          "screenshot": "DB7EC2BB-D180-44C7-92B6-D8643AF6452A.png"
+        },
+        {
+          "id": "B09",
+          "actual": "all 40 original unit cases passed in this run",
+          "test_ids": [
+            "GameEngineTests test_can_add_number",
+            "GameEngineTests test_can_combine_numbers_to_right",
+            "GameEngineTests test_can_compare_boards",
+            "GameEngineTests test_can_create_engine",
+            "GameEngineTests test_can_flip_board",
+            "GameEngineTests test_can_rotate_board",
+            "GameEngineTests test_can_slide_row_to_right",
+            "GameEngineTests test_is_game_over",
+            "GameEngineTests test_push_down",
+            "GameEngineTests test_push_left",
+            "GameEngineTests test_push_right",
+            "GameEngineTests test_push_up",
+            "GameStateTrackerTests test_adding_state_returns_newly_added_state",
+            "GameStateTrackerTests test_can_add_state",
+            "GameStateTrackerTests test_can_reset",
+            "GameStateTrackerTests test_can_undo",
+            "GameStateTrackerTests test_can_update_current",
+            "GameStateTrackerTests test_cannot_undo_if_states_count_is_1",
+            "GameStateTrackerTests test_has_1_state_after_init",
+            "GameStateTrackerTests test_isUndoable_is_false_if_state_count_is_1",
+            "GameStateTrackerTests test_isUndoable_is_true_if_state_count_is_more_than_1",
+            "GameStateTrackerTests test_last_returns_last_state",
+            "GameViewControllerTests test_view_controller_call_start_on_init",
+            "GameViewModelTests test_can_add_number_to_board",
+            "GameViewModelTests test_can_count_moves",
+            "GameViewModelTests test_can_erase_best_score",
+            "GameViewModelTests test_can_init_with_blank_board",
+            "GameViewModelTests test_can_push_numbers_down",
+            "GameViewModelTests test_can_push_numbers_to_left",
+            "GameViewModelTests test_can_push_numbers_to_right",
+            "GameViewModelTests test_can_push_numbers_to_up",
+            "GameViewModelTests test_can_reset_board",
+            "GameViewModelTests test_can_save_best_score",
+            "GameViewModelTests test_can_score",
+            "GameViewModelTests test_can_tell_if_the_game_is_over",
+            "GameViewModelTests test_can_undo",
+            "LocalStorageTests test_can_reset_data",
+            "LocalStorageTests test_can_save_best_score",
+            "LocalStorageTests test_can_save_board",
+            "LocalStorageTests test_can_save_score"
+          ]
+        }
+      ],
+      "layout_screenshot": "18E12400-28ED-4D0E-BD3A-6F5C24EF952B.png",
+      "cleanup": "Shutdown"
+    }
+  ],
+  "resource": {
+    "files": [
+      {
+        "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+        "source": "design/units/UI-2048-MENU/releases/U001/tokens.json",
+        "runtime": "twofortyeight/twofortyeight/menu-tokens.json",
+        "sha256": "3184b8ee1b57ce2bcba7cdf9940fbae83cecba7b5792bfd24bedea8564c902fc",
+        "bytes": 538
+      },
+      {
+        "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+        "source": "design/units/UI-2048-MENU/releases/U001/tokens.json",
+        "runtime": "twofortyeight/twofortyeightTests/approved-menu-tokens.json",
+        "sha256": "3184b8ee1b57ce2bcba7cdf9940fbae83cecba7b5792bfd24bedea8564c902fc",
+        "bytes": 538
+      },
+      {
+        "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+        "source": "design/units/UI-2048-MENU/releases/U001/assets/menu-primary.png",
+        "runtime": "twofortyeight/twofortyeight/Assets.xcassets/MenuPrimary.imageset/menu-primary.png",
+        "sha256": "0c43a01a95270167be8c05a68c45a2709e60177d9dfa59bedb56fd0802659e52",
+        "bytes": 784
+      },
+      {
+        "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+        "source": "design/units/UI-2048-MENU/releases/U001/assets/menu-secondary.png",
+        "runtime": "twofortyeight/twofortyeight/Assets.xcassets/MenuSecondary.imageset/menu-secondary.png",
+        "sha256": "f0f3d52f110768bf93a10b44f4ec3c727924c25734ce85e1275464c9b02cfe18",
+        "bytes": 786
+      }
+    ],
+    "runtime_png_bytes": 1570,
+    "rgba_bytes": 393216,
+    "tokens_bytes": 538,
+    "runtime_load_tests": "pending"
+  },
+  "review": {
+    "reviewer": "Codex engineering self-review; not human approval",
+    "viewed_cases_each_device": [
+      "B02",
+      "B04",
+      "B05",
+      "B06",
+      "B07"
+    ],
+    "reference": "fixed D menu-se/pro and confirm reference, with approved OS-RENDERING allowance",
+    "result": "same cream/dark-green menu, rounded system typography, complete text, two intact nine-slice assets; no clipping/overlap; native alert retains original wording/actions",
+    "layout_evidence": "both sizes asserted 312x64pt,16pt gap,hittable elements/no overlap; lower-left rectangle corner activates New Game",
+    "required_fix": "B06 original data reset did not notify UI; one @Published annotation, actual RED/GREEN; no gameplay/storage rule change",
+    "scope_evidence": "game-scope-check.json",
+    "release_evidence": "game-final-Release/artifact-checks.json",
+    "limitations": "portrait/light/default font/English on selected iOS27 simulators only; no hosted CI, true device performance, Android or Unity/Cocos claims"
+  },
+  "human_runtime_acceptance": "pending"
+}

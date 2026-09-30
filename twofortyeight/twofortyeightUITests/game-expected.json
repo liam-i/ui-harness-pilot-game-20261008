@@ -1,0 +1,69 @@
+{
+  "basis": "game-scope.md and fixed upstream GameViewModel/MenuView, not generated from implementation",
+  "cases": [
+    {
+      "id": "B01",
+      "state": "board",
+      "action": "launch deterministic board, score 16 / best 64",
+      "expected": "board shown, score 16, best 64"
+    },
+    {
+      "id": "B02",
+      "state": "menu",
+      "action": "tap existing menu button",
+      "expected": "MENU, NEW GAME, RESET BEST SCORE visible; board/score unchanged"
+    },
+    {
+      "id": "B03",
+      "state": "board",
+      "action": "swipe sheet down",
+      "expected": "same board, score 16 and best 64; input returns to board"
+    },
+    {
+      "id": "B04",
+      "state": "confirm-reset",
+      "action": "menu → RESET BEST SCORE",
+      "expected": "native alert with original question, Cancel and Yeah, whatever; no score mutation"
+    },
+    {
+      "id": "B05",
+      "state": "menu",
+      "action": "tap Cancel",
+      "expected": "menu remains, best 64; board/score unchanged"
+    },
+    {
+      "id": "B06",
+      "state": "board",
+      "action": "RESET BEST SCORE → Yeah, whatever",
+      "expected": "menu closes; best 0 immediately, board and score16 unchanged"
+    },
+    {
+      "id": "B07",
+      "state": "board",
+      "action": "fresh seeded score16/best64 → menu → NEW GAME",
+      "expected": "menu closes; score0, one tile2 or4, best64; undo history reset"
+    },
+    {
+      "id": "B08",
+      "state": "menu",
+      "action": "open menu, background/foreground same process",
+      "expected": "menu remains, no automatic game/reset action"
+    },
+    {
+      "id": "B09",
+      "state": "board",
+      "action": "existing deterministic engine/state/storage regressions",
+      "expected": "original merge,score,undo,storage rules unchanged"
+    }
+  ],
+  "devices": [
+    "iPhone SE (3rd generation)",
+    "iPhone 17 Pro"
+  ],
+  "required_design_states": [
+    "board",
+    "menu",
+    "confirm-reset"
+  ],
+  "limits": "Board reference is context only; unchanged board behavior must regress separately. OS alert may differ visually."
+}
