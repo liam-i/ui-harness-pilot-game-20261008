@@ -1,0 +1,102 @@
+{
+  "schema_version": "ui-bindings/1",
+  "bindings": [
+    {
+      "consumer": {
+        "kind": "change",
+        "subject": "adopt-approved-menu-ui",
+        "record_ref": {
+          "repository": "game",
+          "commit": "b74954ec23dcc820f8a2547aabcc6934996b24f8",
+          "path": "openspec/changes/archive/2026-09-30-adopt-approved-menu-ui/proposal.md",
+          "sha256": "d2de74a3145c3ba675ef5f95ed6f6e41c6fc088b43841a348d4aa570028462c0"
+        }
+      },
+      "applicability": "required",
+      "rationale_ref": {
+        "repository": "game",
+        "commit": "b74954ec23dcc820f8a2547aabcc6934996b24f8",
+        "path": "openspec/changes/archive/2026-09-30-adopt-approved-menu-ui/design.md",
+        "sha256": "7daa6b7fd4cd5fa73de3c31f48be7ccd441bf5dff28ba1ddefa642411e6d1cd2"
+      },
+      "approved_releases": [
+        {
+          "approved_release_ref": {
+            "repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority",
+            "commit": "db1d8d36482883a46f6624c02cde4241547f3d18",
+            "path": "design/units/UI-2048-MENU/decisions/approve-U001.yaml",
+            "sha256": "b634b272ddbd1712f605ec436835338a4a32b2c58b1779cc44c4bc54905fb171"
+          }
+        }
+      ],
+      "coverage": [
+        {
+          "behavior_ref": "B01",
+          "screen_states": [
+            "game/board"
+          ]
+        },
+        {
+          "behavior_ref": "B02",
+          "screen_states": [
+            "menu/default"
+          ]
+        },
+        {
+          "behavior_ref": "B03",
+          "screen_states": [
+            "game/board"
+          ]
+        },
+        {
+          "behavior_ref": "B04",
+          "screen_states": [
+            "menu/confirm-reset"
+          ]
+        },
+        {
+          "behavior_ref": "B05",
+          "screen_states": [
+            "menu/default"
+          ]
+        },
+        {
+          "behavior_ref": "B06",
+          "screen_states": [
+            "game/board"
+          ]
+        },
+        {
+          "behavior_ref": "B07",
+          "screen_states": [
+            "game/board"
+          ]
+        },
+        {
+          "behavior_ref": "B08",
+          "screen_states": [
+            "menu/default"
+          ]
+        },
+        {
+          "behavior_ref": "B09",
+          "screen_states": [
+            "game/board"
+          ]
+        }
+      ],
+      "allowed_differences": [
+        {
+          "id": "OS-RENDERING",
+          "basis": "原生系统栏/字体/符号/语义色、sheet/alert绘制以iOS27实际为准；不改变应用tokens、文案、布局约束和行为",
+          "review_ref": {
+            "repository": "game",
+            "commit": "b74954ec23dcc820f8a2547aabcc6934996b24f8",
+            "path": "openspec/changes/archive/2026-09-30-adopt-approved-menu-ui/design.md",
+            "sha256": "7daa6b7fd4cd5fa73de3c31f48be7ccd441bf5dff28ba1ddefa642411e6d1cd2"
+          }
+        }
+      ]
+    }
+  ]
+}
