@@ -1,0 +1,33 @@
+{
+  "app_bundle": "twofortyeight.app",
+  "bundled_tokens": {
+    "path": "menu-tokens.json",
+    "sha256": "3184b8ee1b57ce2bcba7cdf9940fbae83cecba7b5792bfd24bedea8564c902fc"
+  },
+  "devices": [
+    {
+      "name": "UI-Goal01-SE-20260930",
+      "udid": "4F72CD21-F071-4835-87B2-1456D125374B"
+    },
+    {
+      "name": "UI-Goal01-Pro-20260930",
+      "udid": "D14EBF55-3D41-419E-8F85-306D5D812CFD"
+    }
+  ],
+  "expected_basis": {
+    "A": "db1d8d36482883a46f6624c02cde4241547f3d18",
+    "D": "c6f6cda8b823fa5a5fb9c2ec0f89e876c305bd60",
+    "note": "Same approved tests, selected targets and native scope; no expectation is generated from this new run.",
+    "unit": "UI-2048-MENU"
+  },
+  "expected_tests": 56,
+  "project": "twofortyeight/twofortyeight.xcodeproj",
+  "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+  "scheme": "twofortyeight",
+  "test_targets": [
+    "twofortyeightTests",
+    "twofortyeightUITests/MenuUITests"
+  ],
+  "test_timeout_seconds": 300,
+  "xcode_version": "Xcode 27.0\nBuild version 27A266a"
+}
