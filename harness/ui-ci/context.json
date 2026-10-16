@@ -1,0 +1,54 @@
+{
+  "bindings_path": "harness/ui-design/config/bindings.json",
+  "business_repository": "game",
+  "policy_path": "harness/ui-design/config/project.yaml",
+  "snapshot": {
+    "action": "pre-merge",
+    "authorities": [
+      {
+        "commit": "c6f8cb0b1bb9db34cf894a383092dee4d5bdbc8d",
+        "history_root": "a6bc9fb40ff11bdfe7190273b97ebb6901f9ad52",
+        "ref": "refs/heads/main",
+        "repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority"
+      }
+    ],
+    "external_files": [],
+    "mode": "current",
+    "rules": {
+      "sha256": "7654e89e41e9cbde1439d4ee353d8f0cbccb17112e1cbf10ed7752aac2e32154",
+      "version": "ui-check/1"
+    },
+    "schema_version": "ui-snapshot/1",
+    "selections": [
+      {
+        "behaviors": [
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09"
+        ],
+        "consumer": {
+          "kind": "change",
+          "record_ref": {
+            "commit": "b74954ec23dcc820f8a2547aabcc6934996b24f8",
+            "path": "openspec/changes/archive/2026-09-30-adopt-approved-menu-ui/proposal.md",
+            "repository": "game",
+            "sha256": "d2de74a3145c3ba675ef5f95ed6f6e41c6fc088b43841a348d4aa570028462c0"
+          },
+          "subject": "adopt-approved-menu-ui"
+        },
+        "consumption": "existing"
+      }
+    ],
+    "subject": {
+      "id": "adopt-approved-menu-ui",
+      "kind": "change"
+    }
+  },
+  "ui_repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority"
+}

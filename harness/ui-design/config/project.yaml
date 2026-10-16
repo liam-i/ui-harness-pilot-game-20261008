@@ -1,0 +1,62 @@
+{
+  "actors": [
+    {
+      "actor": "current user in thread 01a0f10c-f08d-7020-bf06-8fabf6ed4b46",
+      "evidence_refs": [
+        {
+          "commit": "db1d8d36482883a46f6624c02cde4241547f3d18",
+          "path": "design/units/UI-CALCULATOR/decisions/user-approval-U001.json",
+          "repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority",
+          "sha256": "6bd21a75e160955cbdd1c8f9c7a2399fbc3a3232cca80785cae279805de34b7f"
+        }
+      ],
+      "roles": [
+        "product",
+        "ui"
+      ]
+    }
+  ],
+  "adoption": {
+    "requirements": "not-adopted",
+    "ui": "enabled"
+  },
+  "authorities": [
+    {
+      "decision_glob": "design/units/*/decisions",
+      "history_root": "a6bc9fb40ff11bdfe7190273b97ebb6901f9ad52",
+      "ref": "refs/heads/main",
+      "remote": "https://github.com/liam-i/ui-harness-pilot-design-20261008.git",
+      "repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority"
+    }
+  ],
+  "basis_refs": [
+    {
+      "commit": "99526d0a38689138bd81fcd8f09e9693502d7d41",
+      "path": "inputs/authority.md",
+      "repository": "/private/tmp/ui-workflow-p0-20260930-u8jw1kyx/work/ui-authority",
+      "sha256": "8c84263dc8ad1db635d66336b2b08d7a76d2f673396e3d670dbb1c21b950b5ef"
+    }
+  ],
+  "required_capabilities": [
+    "fixed-objects",
+    "strict-models",
+    "historical-decisions",
+    "current-observation"
+  ],
+  "required_roles": {
+    "approve": [
+      "product",
+      "ui"
+    ],
+    "supersede": [
+      "product",
+      "ui"
+    ],
+    "withdraw": [
+      "product",
+      "ui"
+    ]
+  },
+  "retention": "Authorized public isolated CI pilot. Preserve original D/A/history and reviewed inputs. Retain native and hosted Job evidence. No product release or merge. Endpoint choice authorized by the human creation/run approval and subsequent public-repository instruction.",
+  "schema_version": "ui-policy/1"
+}
